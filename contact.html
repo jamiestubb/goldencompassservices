@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Compass Consulting - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">Golden Compass Consulting</h1>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="index.html" class="header__menu-link">Home</a></li>
+                    <li class="header__menu-item"><a href="services.html" class="header__menu-link">Services</a></li>
+                    <li class="header__menu-item"><a href="about.html" class="header__menu-link">About</a></li>
+                    <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2 class="contact__title">Contact Us</h2>
+            <form class="contact__form">
+                <label for="name" class="contact__label">Name</label>
+                <input type="text" id="name" name="name" class="contact__input" required>
+
+                <label for="email" class="contact__label">Email</label>
+                <input type="email" id="email" name="email" class="contact__input" required>
+
+                <label for="message" class="contact__label">Message</label>
+                <textarea id="message" name="message" class="contact__textarea" required></textarea>
+
+                <button type="submit" class="contact__button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Golden Compass Consulting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
