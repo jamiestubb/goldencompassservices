@@ -21,17 +21,26 @@ body {
 /* Header styles */
 .header {
     background-color: #002B5C;
-    padding: 20px 0;
+    padding: 20px 20px;
     color: #fff;
 }
 
 .header__container {
-/*     max-width: 1200px; */
-    margin: 0 auto;
-    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.header__branding {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-icon {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
 }
 
 .header__logo {
@@ -191,7 +200,7 @@ main {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: auto;  /* This ensures the footer stays at the bottom */
+    margin-top: auto;
 }
 
 .footer__text {
