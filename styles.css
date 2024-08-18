@@ -40,17 +40,22 @@ body {
 .header__logo-icon {
     width: 40px; /* Adjust the size as needed */
     height: auto;
-    margin-right: 10px;
+    margin-right: 10px; /* Space between the icon and the text */
+    vertical-align: middle; /* Aligns the icon in the middle with the text */
 }
 
 .header__logo {
     font-size: 24px;
     font-weight: bold;
+    display: inline-block; /* Ensures the text stays inline with the icon */
+    vertical-align: middle; /* Aligns the text in the middle with the icon */
 }
 
 .header__nav ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .header__menu-item {
