@@ -1,11 +1,196 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Compass Consulting</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some basic styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: #002B5C;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        .header__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header__logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header__nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .header__menu-item {
+            margin-left: 20px;
+        }
+
+        .header__menu-link {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header__menu-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Home section styles */
+        .home {
+            background-image: url('your-image-path.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .home__content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .home__title {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .home__subtitle {
+            font-size: 18px;
+        }
+
+        /* Services section styles */
+        .services {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .services__title {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .services__list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .services__item {
+            max-width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .services__item-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .services__item-description {
+            font-size: 16px;
+        }
+
+        /* About section styles */
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about__title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .about__description {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Contact section styles */
+        .contact {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .contact__title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .contact__form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact__label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact__input, .contact__textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact__button {
+            background-color: #002B5C;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact__button:hover {
+            background-color: #004080;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #002B5C;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer__text {
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
