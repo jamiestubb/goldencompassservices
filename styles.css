@@ -211,3 +211,10 @@ main {
 .footer__text {
     font-size: 14px;
 }
+.header__logo-link {
+    display: inline-block; /* Ensure the clickable area only covers the icon */
+}
+
+.header__logo-link img {
+    display: block; /* Removes any gap below the image */
+}
