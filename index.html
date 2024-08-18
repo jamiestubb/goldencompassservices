@@ -3,194 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Compass Consulting</title>
-    <style>
-        /* Reset some basic styles */
-        body, h1, h2, h3, p, ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        /* Header styles */
-        .header {
-            background-color: #002B5C;
-            padding: 20px 0;
-            color: #fff;
-        }
-
-        .header__container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header__logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .header__nav ul {
-            list-style: none;
-            display: flex;
-        }
-
-        .header__menu-item {
-            margin-left: 20px;
-        }
-
-        .header__menu-link {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .header__menu-link:hover {
-            text-decoration: underline;
-        }
-
-        /* Home section styles */
-        .home {
-            background-image: url('your-image-path.jpg');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .home__content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .home__title {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-        .home__subtitle {
-            font-size: 18px;
-        }
-
-        /* Services section styles */
-        .services {
-            padding: 50px 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-
-        .services__title {
-            font-size: 28px;
-            margin-bottom: 30px;
-        }
-
-        .services__list {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .services__item {
-            max-width: 300px;
-            background-color: #fff;
-            padding: 20px;
-            margin: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .services__item-title {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-
-        .services__item-description {
-            font-size: 16px;
-        }
-
-        /* About section styles */
-        .about {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .about__title {
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
-
-        .about__description {
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        /* Contact section styles */
-        .contact {
-            padding: 50px 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-
-        .contact__title {
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
-
-        .contact__form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .contact__label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .contact__input, .contact__textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        .contact__button {
-            background-color: #002B5C;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .contact__button:hover {
-            background-color: #004080;
-        }
-
-        /* Footer styles */
-        .footer {
-            background-color: #002B5C;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .footer__text {
-            font-size: 14px;
-        }
-    </style>
+    <title>Golden Compass Consulting - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
@@ -198,60 +12,21 @@
             <h1 class="header__logo">Golden Compass Consulting</h1>
             <nav class="header__nav">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a href="#home" class="header__menu-link">Home</a></li>
-                    <li class="header__menu-item"><a href="#services" class="header__menu-link">Services</a></li>
-                    <li class="header__menu-item"><a href="#about" class="header__menu-link">About</a></li>
-                    <li class="header__menu-item"><a href="#contact" class="header__menu-link">Contact</a></li>
+                    <li class="header__menu-item"><a href="index.html" class="header__menu-link">Home</a></li>
+                    <li class="header__menu-item"><a href="services.html" class="header__menu-link">Services</a></li>
+                    <li class="header__menu-item"><a href="about.html" class="header__menu-link">About</a></li>
+                    <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="home" class="home">
+        <section class="home">
             <div class="home__content">
                 <h2 class="home__title">Navigating Success with Strategic Insight</h2>
                 <p class="home__subtitle">Expert management consulting to drive your business forward.</p>
             </div>
-        </section>
-
-        <section id="services" class="services">
-            <h2 class="services__title">Our Services</h2>
-            <div class="services__list">
-                <div class="services__item">
-                    <h3 class="services__item-title">Strategy Consulting</h3>
-                    <p class="services__item-description">Helping you define and execute winning strategies.</p>
-                </div>
-                <div class="services__item">
-                    <h3 class="services__item-title">Operational Consulting</h3>
-                    <p class="services__item-description">Streamlining operations for maximum efficiency.</p>
-                </div>
-                <div class="services__item">
-                    <h3 class="services__item-title">Financial Advisory</h3>
-                    <p class="services__item-description">Guidance on financial planning and management.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="about">
-            <h2 class="about__title">About Us</h2>
-            <p class="about__description">Golden Compass Consulting is a leading management consulting firm specializing in strategy, operations, and financial advisory services. With years of experience and a client-focused approach, we help businesses navigate complex challenges and achieve their goals.</p>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2 class="contact__title">Contact Us</h2>
-            <form class="contact__form">
-                <label for="name" class="contact__label">Name</label>
-                <input type="text" id="name" name="name" class="contact__input" required>
-
-                <label for="email" class="contact__label">Email</label>
-                <input type="email" id="email" name="email" class="contact__input" required>
-
-                <label for="message" class="contact__label">Message</label>
-                <textarea id="message" name="message" class="contact__textarea" required></textarea>
-
-                <button type="submit" class="contact__button">Send Message</button>
-            </form>
         </section>
     </main>
 
