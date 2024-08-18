@@ -38,9 +38,9 @@ body {
 }
 
 .header__logo-icon {
-    width: 40px; /* Adjust the size as needed */
+    width: 80px; /* Adjust the size as needed */
     height: auto;
-    margin-right: 10px; /* Space between the icon and the text */
+    margin-right: 0px; /* Space between the icon and the text */
     vertical-align: middle; /* Aligns the icon in the middle with the text */
 }
 
