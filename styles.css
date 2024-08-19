@@ -417,3 +417,77 @@ main {
         font-size: 16px;
     }
 }
+
+
+/* Author Talks: How to claim your 15 minutes of fame - Specific Styles */
+.blog-post-article--fame {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.blog-post-article--fame__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blog-post-article--fame__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #002B5C;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog-post-article--fame__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.blog-post-article--fame__blockquote {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #004080;
+    font-style: italic;
+    color: #333;
+}
+
+.blog-post-article--fame__link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.blog-post-article--fame__link:hover {
+    background-color: #002B5C;
+}
+
+@media (max-width: 768px) {
+    .blog-post-article--fame {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .blog-post-article--fame__title {
+        font-size: 28px;
+    }
+
+    .blog-post-article--fame__text {
+        font-size: 16px;
+    }
+}
