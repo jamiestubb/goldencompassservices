@@ -77,31 +77,155 @@ main {
     flex: 1;
 }
 
-/* Home section styles */
-.home {
-    background-image: url('your-image-path.jpg');
+/* Hero section styles (for homepage only) */
+.hero {
+    background-image: url('consulting.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
-    text-align: center;
-    padding: 100px 20px;
+    text-align: left;
+    padding: 150px 20px;
+    position: relative;
 }
 
-.home__content {
-    max-width: 800px;
-    margin: 0 auto;
+.hero__content {
+    max-width: 600px;
 }
 
-.home__title {
-    font-size: 36px;
+.hero__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero__cta {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.hero__cta-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Blog posts section styles (for homepage only) */
+.blog-posts {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    max-width: 300px;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blog-post__image {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post__content {
+    padding: 20px;
+}
+
+.blog-post__title {
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
-.home__subtitle {
-    font-size: 18px;
+.blog-post__text {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-/* Services section styles */
+.blog-post__link {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Newsletter section styles (for homepage only) */
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #002B5C;
+    color: #fff;
+}
+
+.newsletter__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.newsletter__text {
+    margin-bottom: 20px;
+}
+
+.newsletter__form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.newsletter__button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #002B5C;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer__text {
+    font-size: 14px;
+}
+
+/* Logo link styles */
+.header__logo-link {
+    display: inline-block; /* Ensure the clickable area only covers the icon */
+}
+
+.header__logo-link img {
+    display: block; /* Removes any gap below the image */
+}
+
+/* Services section styles (for services.html only) */
 .services {
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -136,7 +260,7 @@ main {
     font-size: 16px;
 }
 
-/* About section styles */
+/* About section styles (for about.html only) */
 .about {
     padding: 50px 20px;
     text-align: center;
@@ -154,7 +278,7 @@ main {
     line-height: 1.5;
 }
 
-/* Contact section styles */
+/* Contact section styles (for contact.html only) */
 .contact {
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -197,24 +321,4 @@ main {
 
 .contact__button:hover {
     background-color: #004080;
-}
-
-/* Footer styles */
-.footer {
-    background-color: #002B5C;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: auto;
-}
-
-.footer__text {
-    font-size: 14px;
-}
-.header__logo-link {
-    display: inline-block; /* Ensure the clickable area only covers the icon */
-}
-
-.header__logo-link img {
-    display: block; /* Removes any gap below the image */
 }
