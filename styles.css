@@ -565,3 +565,7 @@ main {
         font-size: 16px;
     }
 }
+
+.about__description p {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
